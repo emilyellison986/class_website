@@ -1,7 +1,7 @@
 # This is a simple 'RSpec in Rails' website Kata
 We will review how to check for the existence of, pages, images, a form and form elements, that will exist in this app.
 
-Test will be done TDD style.
+Test will be done TDD style. Two testing tools you can use are Rspec or Test Unit. For this project, we'll be using Rspec.
 
 "Fork" this code to begin.
 
