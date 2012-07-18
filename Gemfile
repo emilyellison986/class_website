@@ -2,6 +2,12 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 
+# this is how we add th rspec gem into our app -fonso
+group :development do
+  gem "rspec-rails", ">= 2.10.0" 
+  # gem "webrat", ">= 0.7.2" 
+end
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
