@@ -1,16 +1,10 @@
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
   [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
-<<<<<<< HEAD
-  [1m[35m (2.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
-  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
-  [1m[35m (2.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
-  [1m[36m (0.4ms)[0m  [1mselect sqlite_version(*)[0m
-=======
-  [1m[35m (1.0ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
-  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
-  [1m[35m (0.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
-  [1m[36m (0.6ms)[0m  [1mselect sqlite_version(*)[0m
->>>>>>> 5d05384a2338af97acee06dd549e5bb3cb7856d3
   [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
 
 
 Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-18 19:45:56 -0500
@@ -1302,3 +1296,7 @@ Served asset /jquery.js - 304 Not Modified (0ms)
 
 Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2012-07-18 19:56:03 -0500
 Served asset /custom.css - 304 Not Modified (0ms)
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-07-18 18:24:52 -0500
+Served asset /rails.png - 200 OK (4ms)
+
