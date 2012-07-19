@@ -1,0 +1,63 @@
+html {
+	height:100%;
+	font-family:arial;
+	a {
+		text-decoration:none;
+	}
+	body {
+		height:100%;
+		background:-webkit-radial-gradient(lightblue, skyblue);
+		.container {
+			border-radius:4px;
+			box-shadow:1px 2px 3px royalblue;
+			width:960px;
+			height:800px;
+			margin:20px auto;
+			background:white;
+			header{
+				height:50px;
+				ul.logo {
+					float:left;
+					li {
+						list-style:none;	
+						font-size:30px;
+						a {
+							color:royalblue;
+						}
+						a:hover {
+							color:skyblue;
+						}
+					}
+				}
+				ul.menu {
+					float:right;
+					li {
+						float:left;
+						list-style:none;
+						padding-right:40px;
+						a {
+							color:royalblue;
+						}
+						a:hover {
+							color:skyblue;
+						}
+					}
+				}
+			}
+			.content {
+				margin:40px;
+				height:600px;
+			}
+			footer {
+				margin:0px;
+				height:50px;
+				ul {
+					float:left;
+					li {
+						list-style:none;
+					}
+				}
+			}
+		}
+	}
+}

@@ -7,8 +7,25 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class='container'>
+	<header>
+		<ul class='logo'>
+			<li><%= link_to 'Formkata', root_url %></li>
+		</ul>
+		<ul class='menu'>
+			<li><%= link_to 'About', '#' %></li>
+			<li><%= link_to 'Contact', '#' %></li>
+		</ul>
+	</header>
+	<div class='content'>
+		<hr/>
+		<%= yield %>
+	</div>
+	<footer>
+		<ul>
+			<li>&copy; 2012 Formkata.</li>
+		</ul>
+	</footer>
+	</div>
 </body>
 </html>
