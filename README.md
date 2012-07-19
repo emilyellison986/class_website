@@ -1,5 +1,5 @@
 This is KDIRONSIDE's nonsensical message added to README. Testing, testing...1, 2, 3.....
-
+This is EMacAdie's change, and it's even better.
 
 # This is a simple 'RSpec in Rails' website Kata
 We will review how to check for the existence of, pages, images, a form and form elements, that will exist in this app.
